@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9562a47b-99ba-4022-90bf-39726c8d4b14" name="Changes" comment="remove build as it is unused yet">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="9562a47b-99ba-4022-90bf-39726c8d4b14" name="Changes" comment="dependency">
+      <change afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +63,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.circleci" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -110,7 +110,7 @@
       <updated>1677505394442</updated>
       <workItem from="1677505396779" duration="1907000" />
       <workItem from="1677507315029" duration="5096000" />
-      <workItem from="1678196752569" duration="5136000" />
+      <workItem from="1678196752569" duration="5418000" />
     </task>
     <task id="LOCAL-00001" summary="maven xml">
       <created>1677506864472</created>
@@ -133,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677512603786</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="dependency">
+      <created>1678216030686</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678216030686</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +163,7 @@
     <MESSAGE value="mockito" />
     <MESSAGE value="name" />
     <MESSAGE value="remove build as it is unused yet" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove build as it is unused yet" />
+    <MESSAGE value="dependency" />
+    <option name="LAST_COMMIT_MESSAGE" value="dependency" />
   </component>
 </project>
