@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   build-and-test:
     docker:
-      - image: cimg/openjdk
+      - image: cimg/openjdk:19.0.2
 
     steps:
         - checkout
