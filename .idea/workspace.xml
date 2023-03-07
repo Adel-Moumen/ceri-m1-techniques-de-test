@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9562a47b-99ba-4022-90bf-39726c8d4b14" name="Changes" comment=".circleci/config.yml">
       <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +110,7 @@
       <updated>1677505394442</updated>
       <workItem from="1677505396779" duration="1907000" />
       <workItem from="1677507315029" duration="5096000" />
-      <workItem from="1678196752569" duration="5866000" />
+      <workItem from="1678196752569" duration="5935000" />
     </task>
     <task id="LOCAL-00001" summary="maven xml">
       <created>1677506864472</created>
@@ -148,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678216235201</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary=".circleci/config.yml">
+      <created>1678216673455</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678216673455</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
