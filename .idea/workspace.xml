@@ -110,7 +110,7 @@
       <updated>1677505394442</updated>
       <workItem from="1677505396779" duration="1907000" />
       <workItem from="1677507315029" duration="5096000" />
-      <workItem from="1678196752569" duration="5969000" />
+      <workItem from="1678196752569" duration="6101000" />
     </task>
     <task id="LOCAL-00001" summary="maven xml">
       <created>1677506864472</created>
@@ -161,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678216739073</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary=".circleci/config.yml">
+      <created>1678216772658</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678216772658</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
