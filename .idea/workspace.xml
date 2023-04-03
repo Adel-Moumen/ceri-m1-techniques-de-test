@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9562a47b-99ba-4022-90bf-39726c8d4b14" name="Changes" comment=".circleci/config.yml">
-      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
+    <list default="true" id="9562a47b-99ba-4022-90bf-39726c8d4b14" name="Changes" comment="remove filters">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ceri-m1-techniques-de-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ceri-m1-techniques-de-test.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +111,9 @@
       <updated>1677505394442</updated>
       <workItem from="1677505396779" duration="1907000" />
       <workItem from="1677507315029" duration="5096000" />
-      <workItem from="1678196752569" duration="6119000" />
+      <workItem from="1678196752569" duration="6351000" />
+      <workItem from="1678693989915" duration="57000" />
+      <workItem from="1680523722598" duration="745000" />
     </task>
     <task id="LOCAL-00001" summary="maven xml">
       <created>1677506864472</created>
@@ -175,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678216906322</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="remove filters">
+      <created>1678216927750</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1678216927750</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +210,7 @@
     <MESSAGE value="remove build as it is unused yet" />
     <MESSAGE value="dependency" />
     <MESSAGE value=".circleci/config.yml" />
-    <option name="LAST_COMMIT_MESSAGE" value=".circleci/config.yml" />
+    <MESSAGE value="remove filters" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove filters" />
   </component>
 </project>
