@@ -1,22 +1,24 @@
 package fr.univavignon.pokedex.api;
-// import mock
-import org.mockito.Mock;
-import org.mockito.Mock.*;
-import org.junit.*;
-import org.mockito.MockitoAnnotations;
+import org.junit.Before;
+import org.junit.Test;
+
+import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.when;
+
 public class IPokemonFactoryTest {
 
-    @Mock
-    private IPokemonFactory pokemonFactory;
+    private Pokemon pokemon;
 
     @Before
-    public void setUp() {
-        // init mock
-        MockitoAnnotations.initMocks(pokemonFactory);
+    public void initTestEnvironment() {
+        Pokemon pokemon1 = new Pokemon(0, "Dracofeu", 10000, 10000, 10000, 10000, 10000, 10000,10000, 10000);
+        when(mock(IPokemonFactory.class).createPokemon(10000,10000,10000,10000,10000)).thenReturn(pokemon1);
     }
 
-    @After
-    public void tearDown() {
-
+    @Test
+    public void testCreatePokemon() {
+        assert (mock(IPokemonFactory.class).createPokemon(10000,10000,10000,10000,10000) == pokemon);
+        System.out.println("Pokemon Factory Test Passed!");
     }
 }
