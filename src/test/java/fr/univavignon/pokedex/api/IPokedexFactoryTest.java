@@ -1,23 +1,26 @@
 package fr.univavignon.pokedex.api;
-// import mock
-import org.mockito.Mock;
-import org.mockito.Mock.*;
-import org.junit.*;
-import org.mockito.MockitoAnnotations;
+
+import org.junit.Before;
+import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.mockito.Mockito.when;
+import static org.mockito.Mockito.mock;
 
 public class IPokedexFactoryTest {
 
-    @Mock
-    private IPokedexFactory pokedexFactory;
+    private IPokedex pokedex;
 
     @Before
-    public void setUp() {
-        // init mock
-        MockitoAnnotations.initMocks(pokedexFactory);
+    public void initTestEnvironment() {
+        IPokemonFactory pokemonFactory = mock(IPokemonFactory.class);
+        IPokemonMetadataProvider pokemonMetadataProvider = mock(IPokemonMetadataProvider.class);
+        pokedex = mock(IPokedex.class);
+        when(mock(IPokedexFactory.class).createPokedex(pokemonMetadataProvider, pokemonFactory)).thenReturn(pokedex);
     }
 
-    @After
-    public void tearDown() {
-
+    @Test
+    public void testCreatePokedex() {
+        assertNotNull(pokedex);
+        System.out.println("Not Null!");
     }
 }
