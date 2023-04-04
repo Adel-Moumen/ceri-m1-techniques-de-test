@@ -1,22 +1,32 @@
 package fr.univavignon.pokedex.api;
-// import mock
-import org.mockito.Mock;
-import org.mockito.Mock.*;
-import org.junit.*;
-import org.mockito.MockitoAnnotations;
+
+
+import org.junit.Before;
+import org.junit.Test;
+
+import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.ArgumentMatchers.anyString;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.when;
+
 public class IPokemonTrainerFactoryTest {
 
-    @Mock
-    private IPokemonTrainerFactory pokemonTrainerFactory;
+
+    private IPokemonTrainerFactory pokemonTrainerFactory = mock(IPokemonTrainerFactory.class);
+    private PokemonTrainer pokemonTrainer = mock(PokemonTrainer.class);
+    private IPokedexFactory pokedexFactory = mock(IPokedexFactory.class);
+    private String name = "abdelkader";
+
+    @Test
+    public void testCreateTrainer() {
+        assert (pokemonTrainerFactory.createTrainer("abdelkader", Team.VALOR, pokedexFactory) == pokemonTrainer);
+        System.out.println("Pokemon Trainer Factory Test Passed!");
+    }
 
     @Before
-    public void setUp() {
-        // init mock
-        MockitoAnnotations.initMocks(pokemonTrainerFactory);
+    public void initTestEnvironment() {
+        when(pokemonTrainerFactory.createTrainer(name, Team.VALOR, pokedexFactory)).thenReturn(pokemonTrainer);
     }
 
-    @After
-    public void tearDown() {
 
-    }
 }
