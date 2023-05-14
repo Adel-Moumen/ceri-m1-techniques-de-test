@@ -1,9 +1,15 @@
 package fr.univavignon.pokedex.api;
 
-public class PokedexFactory implements IPokedexFactory {
+/**
+ * Factory Class that aims to create Pokemon instance.
+ * @author fv
+ */
+public class PokemonFactory implements IPokemonFactory {
+
     @Override
-    public IPokedex createPokedex(final IPokemonMetadataProvider metadataProvider, final IPokemonFactory pokemonFactory) {
-        return new Pokedex(metadataProvider, pokemonFactory);
+    public Pokemon createPokemon(final int index, final int cp, final int hp, final int dust, final int candy) throws PokedexException {
+        PokemonMetadata pokemonMetadata = new PokemonMetadataProvider().getPokemonMetadata(index);
+        return new Pokemon(index, pokemonMetadata.getName(), pokemonMetadata.getAttack(), pokemonMetadata.getDefense(), pokemonMetadata.getDefense(), cp, hp, dust, candy, 1);
     }
 
 }
