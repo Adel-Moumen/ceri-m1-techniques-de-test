@@ -1,8 +1,7 @@
 version: 2.1
 
 orbs:
-  codecov: codecov/codecov@3.2.4
-
+  codecov: codecov/codecov@3.2.3
 jobs:
   build-and-test:
     docker:
@@ -30,11 +29,4 @@ workflows:
     build-and-test:
         jobs:
           - build-and-test
-
-        steps:
-          - uses: actions/checkout@master
-
-          - uses: codecov/codecov-action@v3
-            with:
-              token:
-                ${{ secrets.CODECOV_TOKEN }}
+          - codecov/upload
