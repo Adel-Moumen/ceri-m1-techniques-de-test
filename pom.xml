@@ -130,4 +130,11 @@
 
         </plugins>
     </build>
+
+    <scm>
+        <connection>scm:git:git://github.com/Adel-Moumen/ceri-m1-techniques-de-test.git</connection>
+        <developerConnection>scm:git:ssh://github.com/USERNAME/ceri-m1-techniques-de-test.git</developerConnection>
+        <url>https://github.com/Adel-Moumen/ceri-m1-techniques-de-test</url>
+        <tag>HEAD</tag>
+    </scm>
 </project>
