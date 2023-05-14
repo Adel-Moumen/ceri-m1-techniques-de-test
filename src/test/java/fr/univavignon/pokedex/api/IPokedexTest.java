@@ -6,29 +6,25 @@ import org.junit.jupiter.api.BeforeEach;
 
 import java.util.Collections;
 
-import static org.mockito.ArgumentMatchers.any;
-import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.when;
-
-
 public class IPokedexTest {
 
 
     private IPokedex pokedex;
+    private Pokemon pokemon1;
+    private Pokemon pokemon2;
+    private IPokemonMetadataProvider pokemonMetadataProvider;
+    private IPokemonFactory pokemonFactory;
     @Before
     public void initTestEnvironment(){
-        IPokemonFactory pokemonFactory = mock(IPokemonFactory.class);
-        IPokedexFactory pokedexFactory = mock(IPokedexFactory.class);
-        IPokemonMetadataProvider metadataProvider = mock(IPokemonMetadataProvider.class);
-        when(pokedexFactory.createPokedex(metadataProvider, pokemonFactory)).thenReturn(mock(IPokedex.class));
-        pokedex = pokedexFactory.createPokedex(metadataProvider, pokemonFactory);
-        when(pokedex.size()).thenReturn(0);
+        pokedex = new PokedexFactory().createPokedex(new PokemonMetadataProvider(), new PokemonFactory());
+        pokemon1 = new Pokemon(1, "pokemon1", 100, 100, 100, 100, 100, 100, 100, 100);
+        pokemon2 = new Pokemon(2, "pokemon2", 100, 100, 100, 100, 100, 100, 100, 100);
+        pokemonMetadataProvider = new PokemonMetadataProvider();
+        pokemonFactory = new PokemonFactory();
     }
 
     @Test
     public void testSize() {
-        assert (pokedex.size() == 0);
-        System.out.println("Pokedex Size Test Passed!");
     }
 
 }

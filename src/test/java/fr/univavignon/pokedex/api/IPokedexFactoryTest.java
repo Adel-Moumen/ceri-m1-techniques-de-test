@@ -7,23 +7,26 @@ import org.junit.Assert;
 public class IPokedexFactoryTest {
 
     private IPokedex pokedex;
-    private IPokedexFactory pokedexFactory;
-    private IPokemonFactory pokemonFactory;
+    private Pokemon pokemon1;
+    private Pokemon pokemon2;
     private IPokemonMetadataProvider pokemonMetadataProvider;
+    private IPokemonFactory pokemonFactory;
 
 
     @Before
     public void initTestEnvironment() {
+        pokedex = new PokedexFactory().createPokedex(new PokemonMetadataProvider(), new PokemonFactory());
         pokemonMetadataProvider = new PokemonMetadataProvider();
-        pokedexFactory = new PokedexFactory();
+
         pokemonFactory = new PokemonFactory();
+
+        pokemon1 = new Pokemon(1, "pokemon1", 100, 100, 100, 100, 100, 100, 100, 100);
+        pokemon2 = new Pokemon(2, "pokemon2", 100, 100, 100, 100, 100, 100, 100, 100);
     }
 
     @Test
-    public void testCreatePokedex() {
-        pokedex = new Pokedex(pokemonMetadataProvider,pokemonFactory);
-
-        Assert.assertEquals(pokedexFactory.createPokedex(pokemonMetadataProvider,pokemonFactory).size(), pokedex.size());
-        Assert.assertEquals(pokedexFactory.createPokedex(pokemonMetadataProvider,pokemonFactory).getPokemons(), pokedex.getPokemons());
+    public void shouldReturnOneWhenGetSize() {
+        pokedex.addPokemon(pokemon1);
+        Assert.assertEquals(1, pokedex.size());
     }
 }
