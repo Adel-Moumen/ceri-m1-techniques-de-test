@@ -24,10 +24,13 @@ jobs:
               only:
                 - master
 
+
+        - store_artifacts:
+            path: target/site/jacoco/jacoco.xml
+            destination: /tmp/artifacts
         - store_artifacts:
             path: target/checkstyle-result.xml
             destination: /tmp/artifacts
-
         - store_artifacts:
             path: target/site/checkstyle-result.svg
             destination: /tmp/artifacts
