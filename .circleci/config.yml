@@ -29,11 +29,12 @@ workflows:
     version: 2
     build-and-test:
         jobs:
-        - build-and-test
+          - build-and-test
 
-        - uses: actions/checkout@master
+        steps:
+          - uses: actions/checkout@master
 
-        - uses: codecov/codecov-action@v3
-          with:
-            token:
-              ${{ secrets.CODECOV_TOKEN }}
+          - uses: codecov/codecov-action@v3
+            with:
+              token:
+                ${{ secrets.CODECOV_TOKEN }}
