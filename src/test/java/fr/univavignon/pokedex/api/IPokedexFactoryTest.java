@@ -29,4 +29,9 @@ public class IPokedexFactoryTest {
         pokedex.addPokemon(pokemon1);
         Assert.assertEquals(1, pokedex.size());
     }
+
+    @Test
+    public void shouldReturnZeroWhenGetSize() {
+        Assert.assertEquals(0, pokedex.size());
+    }
 }
