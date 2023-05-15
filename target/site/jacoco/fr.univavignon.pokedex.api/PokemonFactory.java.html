@@ -8,14 +8,15 @@
 <span class="fc" id="L8">public class PokemonFactory implements IPokemonFactory {</span>
 
     @Override
-    public Pokemon createPokemon(final int index, final int cp, final int hp,
-                                 final int dust, final int candy)
+    public final Pokemon createPokemon(final int index, final int cp,
+                                       final int hp,
+                                       final int dust, final int candy)
             throws PokedexException {
-<span class="fc" id="L14">        PokemonMetadata pokemonMetadata =</span>
-<span class="fc" id="L15">                new PokemonMetadataProvider().getPokemonMetadata(index);</span>
-<span class="fc" id="L16">        return new Pokemon(index, pokemonMetadata.getName(),</span>
-<span class="fc" id="L17">                pokemonMetadata.getAttack(), pokemonMetadata.getDefense(),</span>
-<span class="fc" id="L18">                pokemonMetadata.getDefense(), cp, hp, dust, candy, 1);</span>
+<span class="fc" id="L15">        PokemonMetadata pokemonMetadata =</span>
+<span class="fc" id="L16">                new PokemonMetadataProvider().getPokemonMetadata(index);</span>
+<span class="fc" id="L17">        return new Pokemon(index, pokemonMetadata.getName(),</span>
+<span class="fc" id="L18">                pokemonMetadata.getAttack(), pokemonMetadata.getDefense(),</span>
+<span class="fc" id="L19">                pokemonMetadata.getDefense(), cp, hp, dust, candy, 1);</span>
     }
 
 }

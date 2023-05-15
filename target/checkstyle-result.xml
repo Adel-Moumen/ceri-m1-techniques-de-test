@@ -1,37 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="8.29">
-<file name="/Users/adel-moumen/IdeaProjects/ceri-m1-techniques-de-test-final/src/main/java/fr/univavignon/pokedex/api/IPokemonTrainerFactory.java">
-</file>
-<file name="/Users/adel-moumen/IdeaProjects/ceri-m1-techniques-de-test-final/src/main/java/fr/univavignon/pokedex/api/IPokedex.java">
-</file>
-<file name="/Users/adel-moumen/IdeaProjects/ceri-m1-techniques-de-test-final/src/main/java/fr/univavignon/pokedex/api/Team.java">
-</file>
 <file name="/Users/adel-moumen/IdeaProjects/ceri-m1-techniques-de-test-final/src/main/java/fr/univavignon/pokedex/api/Pokemon.java">
-<error line="50" column="12" severity="error" message="More than 7 parameters (found 10)." source="com.puppycrawl.tools.checkstyle.checks.sizes.ParameterNumberCheck"/>
-</file>
-<file name="/Users/adel-moumen/IdeaProjects/ceri-m1-techniques-de-test-final/src/main/java/fr/univavignon/pokedex/api/PokemonTrainerFactory.java">
-</file>
-<file name="/Users/adel-moumen/IdeaProjects/ceri-m1-techniques-de-test-final/src/main/java/fr/univavignon/pokedex/api/IPokedexFactory.java">
-</file>
-<file name="/Users/adel-moumen/IdeaProjects/ceri-m1-techniques-de-test-final/src/main/java/fr/univavignon/pokedex/api/PokemonFactory.java">
-</file>
-<file name="/Users/adel-moumen/IdeaProjects/ceri-m1-techniques-de-test-final/src/main/java/fr/univavignon/pokedex/api/PokemonTrainer.java">
-</file>
-<file name="/Users/adel-moumen/IdeaProjects/ceri-m1-techniques-de-test-final/src/main/java/fr/univavignon/pokedex/api/PokedexFactory.java">
-</file>
-<file name="/Users/adel-moumen/IdeaProjects/ceri-m1-techniques-de-test-final/src/main/java/fr/univavignon/pokedex/api/PokemonMetadataProvider.java">
-</file>
-<file name="/Users/adel-moumen/IdeaProjects/ceri-m1-techniques-de-test-final/src/main/java/fr/univavignon/pokedex/api/IPokemonFactory.java">
-</file>
-<file name="/Users/adel-moumen/IdeaProjects/ceri-m1-techniques-de-test-final/src/main/java/fr/univavignon/pokedex/api/PokemonComparators.java">
-</file>
-<file name="/Users/adel-moumen/IdeaProjects/ceri-m1-techniques-de-test-final/src/main/java/fr/univavignon/pokedex/api/IPokemonMetadataProvider.java">
-</file>
-<file name="/Users/adel-moumen/IdeaProjects/ceri-m1-techniques-de-test-final/src/main/java/fr/univavignon/pokedex/api/PokemonMetadata.java">
+<error line="49" column="12" severity="error" message="More than 7 parameters (found 10)." source="com.puppycrawl.tools.checkstyle.checks.sizes.ParameterNumberCheck"/>
 </file>
 <file name="/Users/adel-moumen/IdeaProjects/ceri-m1-techniques-de-test-final/src/main/java/fr/univavignon/pokedex/api/package-info.java">
 <error line="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
-</file>
-<file name="/Users/adel-moumen/IdeaProjects/ceri-m1-techniques-de-test-final/src/main/java/fr/univavignon/pokedex/api/Pokedex.java">
 </file>
 </checkstyle>

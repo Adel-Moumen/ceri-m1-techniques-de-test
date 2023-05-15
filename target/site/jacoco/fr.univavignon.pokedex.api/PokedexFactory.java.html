@@ -2,7 +2,7 @@
 
 <span class="fc" id="L3">public class PokedexFactory implements IPokedexFactory {</span>
     @Override
-    public IPokedex createPokedex(
+    public final IPokedex createPokedex(
             final IPokemonMetadataProvider metadataProvider,
             final IPokemonFactory pokemonFactory) {
 <span class="fc" id="L8">        return new Pokedex(metadataProvider, pokemonFactory);</span>

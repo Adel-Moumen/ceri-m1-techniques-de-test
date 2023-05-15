@@ -3,27 +3,65 @@
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * The type Pokemon metadata provider.
+ */
 public class PokemonMetadataProvider implements IPokemonMetadataProvider {
 
+    /**
+     * The Pokemon metadata list.
+     */
     private final List&lt;PokemonMetadata&gt; pokemonMetadataList;
 
-<span class="fc" id="L10">    public PokemonMetadataProvider() {</span>
-<span class="fc" id="L11">        pokemonMetadataList = new ArrayList&lt;&gt;();</span>
-<span class="fc" id="L12">        pokemonMetadataList.add(new PokemonMetadata(0, &quot;pokemon1&quot;, 4, 4, 4));</span>
-<span class="fc" id="L13">        pokemonMetadataList.add(</span>
-                new PokemonMetadata(1, &quot;pokemon2&quot;, 384, 29, 500));
-<span class="fc" id="L15">    }</span>
+    /**
+     * The constant attack1.
+     */
+    public static final int ATTACK_ONE = 4;
+    /**
+     * The constant defense1.
+     */
+    public static final int DEFENSE_1 = 4;
+    /**
+     * The constant stamina1.
+     */
+    public static final int STAMINA_1 = 4;
+    /**
+     * The constant attack2.
+     */
+    public static final int ATTACK_2 = 384;
+    /**
+     * The constant defense2.
+     */
+    public static final int DEFENSE_2 = 29;
+    /**
+     * The constant stamina2.
+     */
+    public static final int STAMINA_2 = 500;
+
+    /**
+     * Instantiates a new Pokemon metadata provider.
+     */
+<span class="fc" id="L44">    public PokemonMetadataProvider() {</span>
+
+<span class="fc" id="L46">        pokemonMetadataList = new ArrayList&lt;&gt;();</span>
+<span class="fc" id="L47">        pokemonMetadataList.add(</span>
+                new PokemonMetadata(0, &quot;pokemon1&quot;, ATTACK_ONE, DEFENSE_1,
+                        STAMINA_1));
+<span class="fc" id="L50">        pokemonMetadataList.add(</span>
+                new PokemonMetadata(1, &quot;pokemon2&quot;, ATTACK_2, DEFENSE_2,
+                        STAMINA_2));
+<span class="fc" id="L53">    }</span>
 
 
     @Override
-    public PokemonMetadata getPokemonMetadata(final int index)
+    public final PokemonMetadata getPokemonMetadata(final int index)
             throws PokedexException {
-<span class="fc bfc" id="L21" title="All 2 branches covered.">        for (PokemonMetadata pokemonMetadata : pokemonMetadataList) {</span>
-<span class="fc bfc" id="L22" title="All 2 branches covered.">            if (pokemonMetadata.getIndex() == index) {</span>
-<span class="fc" id="L23">                return pokemonMetadata;</span>
+<span class="fc bfc" id="L59" title="All 2 branches covered.">        for (PokemonMetadata pokemonMetadata : pokemonMetadataList) {</span>
+<span class="fc bfc" id="L60" title="All 2 branches covered.">            if (pokemonMetadata.getIndex() == index) {</span>
+<span class="fc" id="L61">                return pokemonMetadata;</span>
             }
-<span class="fc" id="L25">        }</span>
-<span class="fc" id="L26">        throw new PokedexException(</span>
+<span class="fc" id="L63">        }</span>
+<span class="fc" id="L64">        throw new PokedexException(</span>
                 &quot;Le Pokémon n'est pas enregistré dans le pokédex&quot;);
     }
 }

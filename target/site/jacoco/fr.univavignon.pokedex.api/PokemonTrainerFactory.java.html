@@ -2,10 +2,11 @@
 
 <span class="fc" id="L3">public class PokemonTrainerFactory implements IPokemonTrainerFactory {</span>
     @Override
-    public PokemonTrainer createTrainer(final String name, final Team team,
-                                        final IPokedexFactory pokedexFactory) {
-<span class="fc" id="L7">        return new PokemonTrainer(name, team,</span>
-<span class="fc" id="L8">                pokedexFactory.createPokedex(new PokemonMetadataProvider(),</span>
+    public final PokemonTrainer createTrainer(final String name,
+                                              final Team team,
+                                              final IPokedexFactory pokedexF) {
+<span class="fc" id="L8">        return new PokemonTrainer(name, team,</span>
+<span class="fc" id="L9">                pokedexF.createPokedex(new PokemonMetadataProvider(),</span>
                         new PokemonFactory()));
     }
 }

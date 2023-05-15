@@ -40,11 +40,11 @@ public final class Pokemon extends PokemonMetadata {
      * @param attack  Attack level.
      * @param defense Defense level.
      * @param stamina Stamina level.
-     * @param cp      Pokemon cp.
-     * @param hp      Pokemon hp.
-     * @param dust    Required dust for upgrading this pokemon.
-     * @param candy   Required candy for upgrading this pokemon.
-     * @param iv      IV perfection percentage.
+     * @param cp1      Pokemon cp.
+     * @param hp1      Pokemon hp.
+     * @param dust1    Required dust for upgrading this pokemon.
+     * @param candy1   Required candy for upgrading this pokemon.
+     * @param iv1      IV perfection percentage.
      */
     public Pokemon(
             final int index,
@@ -52,17 +52,17 @@ public final class Pokemon extends PokemonMetadata {
             final int attack,
             final int defense,
             final int stamina,
-            final int cp,
-            final int hp,
-            final int dust,
-            final int candy,
-            final double iv) {
+            final int cp1,
+            final int hp1,
+            final int dust1,
+            final int candy1,
+            final double iv1) {
 <span class="fc" id="L60">        super(index, name, attack, defense, stamina);</span>
-<span class="fc" id="L61">        this.cp = cp;</span>
-<span class="fc" id="L62">        this.hp = hp;</span>
-<span class="fc" id="L63">        this.dust = dust;</span>
-<span class="fc" id="L64">        this.candy = candy;</span>
-<span class="fc" id="L65">        this.iv = iv;</span>
+<span class="fc" id="L61">        this.cp = cp1;</span>
+<span class="fc" id="L62">        this.hp = hp1;</span>
+<span class="fc" id="L63">        this.dust = dust1;</span>
+<span class="fc" id="L64">        this.candy = candy1;</span>
+<span class="fc" id="L65">        this.iv = iv1;</span>
 <span class="fc" id="L66">    }</span>
 
     /**

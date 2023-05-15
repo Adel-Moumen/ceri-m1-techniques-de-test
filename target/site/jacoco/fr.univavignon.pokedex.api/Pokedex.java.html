@@ -76,16 +76,17 @@ public class Pokedex implements IPokedex {
 
 
     @Override
-    public final Pokemon createPokemon(final int index, final int cp, final int hp,
-                                 final int dust, final int candy)
+    public final Pokemon createPokemon(final int index, final int cp,
+                                       final int hp,
+                                       final int dust, final int candy)
             throws PokedexException {
-<span class="fc" id="L82">        return pokemonFactory.createPokemon(index, cp, hp, dust, candy);</span>
+<span class="fc" id="L83">        return pokemonFactory.createPokemon(index, cp, hp, dust, candy);</span>
     }
 
     @Override
-    public PokemonMetadata getPokemonMetadata(final int index)
+    public final PokemonMetadata getPokemonMetadata(final int index)
             throws PokedexException {
-<span class="fc" id="L88">        return pokemonMetadataProvider.getPokemonMetadata(index);</span>
+<span class="fc" id="L89">        return pokemonMetadataProvider.getPokemonMetadata(index);</span>
     }
 
     /**
@@ -94,7 +95,7 @@ public class Pokedex implements IPokedex {
      * @return the pokemon factory
      */
     public IPokemonFactory getPokemonFactory() {
-<span class="fc" id="L97">        return pokemonFactory;</span>
+<span class="fc" id="L98">        return pokemonFactory;</span>
     }
 
     /**
@@ -103,7 +104,7 @@ public class Pokedex implements IPokedex {
      * @return the pokemon metadata provider
      */
     public IPokemonMetadataProvider getPokemonMetadataProvider() {
-<span class="fc" id="L106">        return pokemonMetadataProvider;</span>
+<span class="fc" id="L107">        return pokemonMetadataProvider;</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>
