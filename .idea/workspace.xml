@@ -7,8 +7,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9562a47b-99ba-4022-90bf-39726c8d4b14" name="Changes" comment="checkstyle">
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/Pokemon.java" afterDir="false" />
+    <list default="true" id="9562a47b-99ba-4022-90bf-39726c8d4b14" name="Changes" comment="checkstyle pass">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokedexFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokedexFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonTrainerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonTrainerFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-javadoc-plugin-stale-data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-javadoc-plugin-stale-data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/allclasses-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/allpackages-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/allpackages-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/index-all.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/index-all.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/member-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/member-search-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/serialized-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/serialized-form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/tag-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/tag-search-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/type-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/type-search-index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +94,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/target/site/badges" />
       <recent name="$PROJECT_DIR$/.circleci" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -131,21 +148,7 @@
       <workItem from="1680599746176" duration="319000" />
       <workItem from="1684070241008" duration="8039000" />
       <workItem from="1684080148585" duration="13247000" />
-      <workItem from="1684172176920" duration="2770000" />
-    </task>
-    <task id="LOCAL-00003" summary="remove build as it is unused yet">
-      <created>1677512603786</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1677512603786</updated>
-    </task>
-    <task id="LOCAL-00004" summary="dependency">
-      <created>1678216030686</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1678216030686</updated>
+      <workItem from="1684172176920" duration="4396000" />
     </task>
     <task id="LOCAL-00005" summary=".circleci/config.yml">
       <created>1678216235201</created>
@@ -476,7 +479,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684174924531</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="checkstyle">
+      <created>1684175067035</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1684175067035</updated>
+    </task>
+    <task id="LOCAL-00053" summary="checkstyle pass">
+      <created>1684175171105</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1684175171106</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -495,7 +512,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value=".circleci/config.yml" />
     <MESSAGE value="remove filters" />
     <MESSAGE value="classes" />
     <MESSAGE value="pom updated with path to test directory" />
@@ -520,7 +536,8 @@
     <MESSAGE value="Iv test" />
     <MESSAGE value="getPokedex test" />
     <MESSAGE value="checkstyle" />
-    <option name="LAST_COMMIT_MESSAGE" value="checkstyle" />
+    <MESSAGE value="checkstyle pass" />
+    <option name="LAST_COMMIT_MESSAGE" value="checkstyle pass" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

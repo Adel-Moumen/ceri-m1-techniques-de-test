@@ -6,7 +6,16 @@ package fr.univavignon.pokedex.api;
  * @author fv
  */
 public class PokemonFactory implements IPokemonFactory {
-
+    /**
+     * Creates a pokemon instance.
+     *
+     * @param index Pokemon index.
+     * @param cp    Pokemon CP.
+     * @param hp    Pokemon HP.
+     * @param dust  Pokemon dust.
+     * @param candy Pokemon candy
+     * @return Pokemon instance.
+     */
     @Override
     public final Pokemon createPokemon(final int index, final int cp,
                                        final int hp,
