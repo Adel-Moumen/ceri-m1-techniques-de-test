@@ -37,6 +37,15 @@ public class IPokemonMetadataProviderTest {
     }
 
     @Test
+    public void shouldReturnExceptionErrorMessageWhenIndexIsNegative() {
+        try {
+            pokemonMetadataProvider2.getPokemonMetadata(-1);
+        } catch (PokedexException e) {
+            Assert.assertEquals("Le Pokémon n'est pas enregistré dans le pokédex",e.getMessage());
+        }
+    }
+
+    @Test
     public void shouldReturnPokemonMetadata() throws PokedexException {
         Assert.assertEquals(pokemon1Metadata.getIndex(),pokemonMetadataProvider1.getPokemonMetadata(0).getIndex());
         Assert.assertEquals(pokemon1Metadata.getName(),pokemonMetadataProvider1.getPokemonMetadata(0).getName());
