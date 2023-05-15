@@ -29,6 +29,7 @@ public class IPokemonTrainerFactoryTest {
         Assert.assertEquals(pokemonTrainer1.getTeam(), Team.MYSTIC);
         Assert.assertEquals(pokemonTrainer2.getName(), "pokemonTrainer2");
         Assert.assertEquals(pokemonTrainer2.getTeam(), Team.MYSTIC);
+        Assert.assertEquals(pokemonTrainer1.getPokedex(), pokemonTrainer2.getPokedex());
     }
 
 
