@@ -8,8 +8,8 @@
 
     @Override
     public Pokemon createPokemon(final int index, final int cp, final int hp, final int dust, final int candy) throws PokedexException {
-<span class="nc" id="L11">        PokemonMetadata pokemonMetadata = new PokemonMetadataProvider().getPokemonMetadata(index);</span>
-<span class="nc" id="L12">        return new Pokemon(index, pokemonMetadata.getName(), pokemonMetadata.getAttack(), pokemonMetadata.getDefense(), pokemonMetadata.getDefense(), cp, hp, dust, candy, 1);</span>
+<span class="fc" id="L11">        PokemonMetadata pokemonMetadata = new PokemonMetadataProvider().getPokemonMetadata(index);</span>
+<span class="fc" id="L12">        return new Pokemon(index, pokemonMetadata.getName(), pokemonMetadata.getAttack(), pokemonMetadata.getDefense(), pokemonMetadata.getDefense(), cp, hp, dust, candy, 1);</span>
     }
 
 }

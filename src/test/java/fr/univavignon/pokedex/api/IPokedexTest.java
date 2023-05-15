@@ -17,12 +17,13 @@ public class IPokedexTest {
 
     @Before
     public void initTestEnvironment(){
-        pokedex = new PokedexFactory().createPokedex(new PokemonMetadataProvider(),new PokemonFactory());
         pokemon1 = new Pokemon(0, "pokemon1", 4, 4, 4, 4, 4, 4, 4, 4);
         pokemon2 = new Pokemon(1, "pokemon2", 384, 29, 500, 4, 4, 4, 4, 4);
 
         pokemonMetadataProvider = new PokemonMetadataProvider();
         pokemonFactory = new PokemonFactory();
+
+        pokedex = new Pokedex(pokemonMetadataProvider, pokemonFactory);
     }
 
     @Test
@@ -58,6 +59,15 @@ public class IPokedexTest {
         Assert.assertEquals(listOfPokemons, pokedex.getPokemons());
     }
 
+    @Test
+    public void shouldReturnTheExactMetadataWhenCalled() throws PokedexException {
+        PokemonMetadata pokemon = pokedex.getPokemonMetadata(0);
+        Assert.assertEquals(pokemon.getIndex(),pokemon1.getIndex());
+        Assert.assertEquals(pokemon.getName(),pokemon1.getName());
+        Assert.assertEquals(pokemon.getAttack(),pokemon1.getAttack());
+        Assert.assertEquals(pokemon.getDefense(),pokemon1.getDefense());
+        Assert.assertEquals(pokemon.getStamina(),pokemon1.getStamina());
+    }
     @Test
     public void shouldReturnSizeOfPokedexWhenSize() throws PokedexException {
         pokedex.addPokemon(pokemon1);
@@ -110,12 +120,12 @@ public class IPokedexTest {
     }
 
     @Test
-    public void shouldReturnTheExactMetadataWhenCalled() throws PokedexException {
-        PokemonMetadata pokemon = pokedex.getPokemonMetadata(0);
-        Assert.assertEquals(pokemon.getIndex(),pokemon1.getIndex());
-        Assert.assertEquals(pokemon.getName(),pokemon1.getName());
-        Assert.assertEquals(pokemon.getAttack(),pokemon1.getAttack());
-        Assert.assertEquals(pokemon.getDefense(),pokemon1.getDefense());
-        Assert.assertEquals(pokemon.getStamina(),pokemon1.getStamina());
+    public void shouldReturnPokemonMetadaWhenCallingGetPokemonMetadata() throws PokedexException {
+        PokemonMetadata pokemonMetadata = pokedex.getPokemonMetadata(0);
+        Assert.assertEquals(pokemonMetadata.getIndex(),pokemon1.getIndex());
+        Assert.assertEquals(pokemonMetadata.getName(),pokemon1.getName());
+        Assert.assertEquals(pokemonMetadata.getAttack(),pokemon1.getAttack());
+        Assert.assertEquals(pokemonMetadata.getDefense(),pokemon1.getDefense());
+        Assert.assertEquals(pokemonMetadata.getStamina(),pokemon1.getStamina());
     }
 }

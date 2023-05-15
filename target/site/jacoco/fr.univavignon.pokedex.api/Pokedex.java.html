@@ -62,16 +62,16 @@ public class Pokedex implements IPokedex {
 
     @Override
     public Pokemon createPokemon(final int index, final int cp, final int hp, final int dust, final int candy) throws PokedexException {
-<span class="nc" id="L65">        return pokemonFactory.createPokemon(index, cp, hp, dust, candy);</span>
+<span class="fc" id="L65">        return pokemonFactory.createPokemon(index, cp, hp, dust, candy);</span>
     }
 
     @Override
     public PokemonMetadata getPokemonMetadata(final int index) throws PokedexException {
-<span class="nc" id="L70">        return pokemonMetadataProvider.getPokemonMetadata(index);</span>
+<span class="fc" id="L70">        return pokemonMetadataProvider.getPokemonMetadata(index);</span>
     }
 
     public IPokemonFactory getPokemonFactory() {
-<span class="nc" id="L74">        return pokemonFactory;</span>
+<span class="fc" id="L74">        return pokemonFactory;</span>
     }
 
     public IPokemonMetadataProvider getPokemonMetadataProvider() {

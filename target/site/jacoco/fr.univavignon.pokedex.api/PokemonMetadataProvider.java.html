@@ -8,16 +8,18 @@ public class PokemonMetadataProvider implements IPokemonMetadataProvider {
     private List&lt;PokemonMetadata&gt; pokemonMetadataList;
 
 <span class="fc" id="L10">    public PokemonMetadataProvider() {</span>
-<span class="fc" id="L11">        this.pokemonMetadataList = new ArrayList&lt;&gt;();</span>
-<span class="fc" id="L12">    }</span>
+<span class="fc" id="L11">        pokemonMetadataList = new ArrayList&lt;&gt;();</span>
+<span class="fc" id="L12">        pokemonMetadataList.add(new PokemonMetadata(0, &quot;pokemon1&quot;, 4, 4, 4));</span>
+<span class="fc" id="L13">        pokemonMetadataList.add(new PokemonMetadata(1, &quot;pokemon2&quot;, 384, 29, 500));</span>
+<span class="fc" id="L14">    }</span>
 
 
     @Override
     public PokemonMetadata getPokemonMetadata(final int index) throws PokedexException {
-<span class="nc bnc" id="L17" title="All 4 branches missed.">        if (index &lt; 0 || index &gt;= pokemonMetadataList.size()) {</span>
-<span class="nc" id="L18">            throw new PokedexException(&quot;Le Pokémon n'est pas enregistré dans le pokédex&quot;);</span>
+<span class="pc bpc" id="L19" title="2 of 4 branches missed.">        if (index &lt; 0 || index &gt;= pokemonMetadataList.size()) {</span>
+<span class="nc" id="L20">            throw new PokedexException(&quot;Le Pokémon n'est pas enregistré dans le pokédex&quot;);</span>
         }
-<span class="nc" id="L20">        return pokemonMetadataList.get(index);</span>
+<span class="fc" id="L22">        return pokemonMetadataList.get(index);</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>
