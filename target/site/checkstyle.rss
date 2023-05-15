@@ -25,8 +25,8 @@ under the License.
     <language>en-us</language>
     <copyright>&#169;2023</copyright>
     <item>
-      <title>File: 10,
-             Errors: 69,
+      <title>File: 15,
+             Errors: 111,
              Warnings: 0,
              Infos: 0
       </title>
@@ -46,7 +46,7 @@ under the License.
           <tbody>
                           <tr>
                 <td>
-                  <a href="${project.url}/checkstyle.html#fr.univavignon.pokedex.api.IPokedex.java">fr/univavignon/pokedex/api/IPokedex.java</a>
+                  <a href="${project.url}/checkstyle.html#fr.univavignon.pokedex.api.PokemonTrainerFactory.java">fr/univavignon/pokedex/api/PokemonTrainerFactory.java</a>
                 </td>
                 <td>
                   0
@@ -55,7 +55,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  2
+                  4
                 </td>
               </tr>
                           <tr>
@@ -69,21 +69,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  10
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="${project.url}/checkstyle.html#fr.univavignon.pokedex.api.IPokedexFactory.java">fr/univavignon/pokedex/api/IPokedexFactory.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  3
+                  9
                 </td>
               </tr>
                           <tr>
@@ -102,20 +88,6 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="${project.url}/checkstyle.html#fr.univavignon.pokedex.api.IPokemonMetadataProvider.java">fr/univavignon/pokedex/api/IPokemonMetadataProvider.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  2
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="${project.url}/checkstyle.html#fr.univavignon.pokedex.api.IPokemonFactory.java">fr/univavignon/pokedex/api/IPokemonFactory.java</a>
                 </td>
                 <td>
@@ -125,7 +97,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  4
+                  5
                 </td>
               </tr>
                           <tr>
@@ -139,7 +111,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  7
+                  6
                 </td>
               </tr>
                           <tr>
@@ -154,6 +126,76 @@ under the License.
                 </td>
                 <td>
                   1
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#fr.univavignon.pokedex.api.PokedexFactory.java">fr/univavignon/pokedex/api/PokedexFactory.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  3
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#fr.univavignon.pokedex.api.IPokedex.java">fr/univavignon/pokedex/api/IPokedex.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  1
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#fr.univavignon.pokedex.api.IPokedexFactory.java">fr/univavignon/pokedex/api/IPokedexFactory.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  3
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#fr.univavignon.pokedex.api.IPokemonMetadataProvider.java">fr/univavignon/pokedex/api/IPokemonMetadataProvider.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  2
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#fr.univavignon.pokedex.api.Pokedex.java">fr/univavignon/pokedex/api/Pokedex.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  20
                 </td>
               </tr>
                           <tr>
@@ -182,6 +224,34 @@ under the License.
                 </td>
                 <td>
                   7
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#fr.univavignon.pokedex.api.PokemonMetadataProvider.java">fr/univavignon/pokedex/api/PokemonMetadataProvider.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  13
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#fr.univavignon.pokedex.api.PokemonFactory.java">fr/univavignon/pokedex/api/PokemonFactory.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  4
                 </td>
               </tr>
                       </tbody>
