@@ -16,9 +16,11 @@ public class PokemonMetadataProvider implements IPokemonMetadataProvider {
 
     @Override
     public PokemonMetadata getPokemonMetadata(final int index) throws PokedexException {
-        if (index < 0 || index >= pokemonMetadataList.size()) {
-            throw new PokedexException("Le Pokémon n'est pas enregistré dans le pokédex");
+        for (PokemonMetadata pokemonMetadata : pokemonMetadataList) {
+            if (pokemonMetadata.getIndex() == index) {
+                return pokemonMetadata;
+            }
         }
-        return pokemonMetadataList.get(index);
+        throw new PokedexException("Le Pokémon n'est pas enregistré dans le pokédex");
     }
 }
