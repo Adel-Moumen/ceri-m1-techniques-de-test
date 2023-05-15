@@ -14,3 +14,4 @@ fr/univavignon/pokedex/api/IPokedex.class
 fr/univavignon/pokedex/api/Pokemon.class
 fr/univavignon/pokedex/api/IPokedexFactory.class
 fr/univavignon/pokedex/api/PokemonFactory.class
+fr/univavignon/pokedex/api/package-info.class
