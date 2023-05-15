@@ -18,7 +18,7 @@ public class IPokedexTest {
     @Before
     public void initTestEnvironment(){
         pokedex = new PokedexFactory().createPokedex(new PokemonMetadataProvider(),new PokemonFactory());
-        pokemon1 = new Pokemon(0, "pokemon1", 613, 64, 4000, 4, 4, 4, 4, 4);
+        pokemon1 = new Pokemon(0, "pokemon1", 4, 4, 4, 4, 4, 4, 4, 4);
         pokemon2 = new Pokemon(1, "pokemon2", 384, 29, 500, 4, 4, 4, 4, 4);
 
         pokemonMetadataProvider = new PokemonMetadataProvider();
@@ -92,5 +92,30 @@ public class IPokedexTest {
         Assert.assertEquals(pokedex.getPokemon(0).getCp(), pokemon1.getCp());
     }
 
+    @Test
+    public void shouldReturnAllPokemonsFromGetPokemons() throws PokedexException {
+        pokedex.addPokemon(pokemon1);
+        pokedex.addPokemon(pokemon2);
+        Assert.assertEquals(pokedex.getPokemons().size(), 2);
+    }
 
+    @Test
+    public void shouldReturnTheNewPokemonWhenCreatePokemon() throws PokedexException {
+        Pokemon pokemon = pokedex.createPokemon(0,  4, 4, 4, 4);
+        Assert.assertEquals(pokemon.getDust(),pokemon1.getDust());
+        Assert.assertEquals(pokemon.getCandy(),pokemon1.getCandy());
+        Assert.assertEquals(pokemon.getIndex(),pokemon1.getIndex());
+        Assert.assertEquals(pokemon.getCp(),pokemon1.getCp());
+        Assert.assertEquals(pokemon.getHp(),pokemon1.getHp());
+    }
+
+    @Test
+    public void shouldReturnTheExactMetadataWhenCalled() throws PokedexException {
+        PokemonMetadata pokemon = pokedex.getPokemonMetadata(0);
+        Assert.assertEquals(pokemon.getIndex(),pokemon1.getIndex());
+        Assert.assertEquals(pokemon.getName(),pokemon1.getName());
+        Assert.assertEquals(pokemon.getAttack(),pokemon1.getAttack());
+        Assert.assertEquals(pokemon.getDefense(),pokemon1.getDefense());
+        Assert.assertEquals(pokemon.getStamina(),pokemon1.getStamina());
+    }
 }

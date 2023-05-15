@@ -4,166 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9562a47b-99ba-4022-90bf-39726c8d4b14" name="Changes" comment="Test">
-      <change afterPath="$PROJECT_DIR$/target/checkstyle-cachefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/checkstyle-checker.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/checkstyle-result.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/fr/univavignon/pokedex/api/Pokedex.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/fr/univavignon/pokedex/api/PokedexFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/fr/univavignon/pokedex/api/PokemonFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/fr/univavignon/pokedex/api/PokemonMetadataProvider.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/fr/univavignon/pokedex/api/PokemonTrainerFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/javadoc-bundle-options/element-list" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/javadoc-bundle-options/javadoc-options-javadoc-resources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-javadoc-plugin-stale-data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/allclasses-index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/allpackages-index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/copy.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/element-list" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/fr/univavignon/pokedex/api/IPokedex.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/fr/univavignon/pokedex/api/IPokedexFactory.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/fr/univavignon/pokedex/api/IPokemonFactory.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/fr/univavignon/pokedex/api/IPokemonMetadataProvider.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/fr/univavignon/pokedex/api/IPokemonTrainerFactory.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/fr/univavignon/pokedex/api/PokedexException.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/fr/univavignon/pokedex/api/Pokemon.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/fr/univavignon/pokedex/api/PokemonComparators.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/fr/univavignon/pokedex/api/PokemonMetadata.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/fr/univavignon/pokedex/api/PokemonTrainer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/fr/univavignon/pokedex/api/Team.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/fr/univavignon/pokedex/api/class-use/IPokedex.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/fr/univavignon/pokedex/api/class-use/IPokedexFactory.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/fr/univavignon/pokedex/api/class-use/IPokemonFactory.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/fr/univavignon/pokedex/api/class-use/IPokemonMetadataProvider.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/fr/univavignon/pokedex/api/class-use/IPokemonTrainerFactory.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/fr/univavignon/pokedex/api/class-use/PokedexException.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/fr/univavignon/pokedex/api/class-use/Pokemon.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/fr/univavignon/pokedex/api/class-use/PokemonComparators.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/fr/univavignon/pokedex/api/class-use/PokemonMetadata.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/fr/univavignon/pokedex/api/class-use/PokemonTrainer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/fr/univavignon/pokedex/api/class-use/Team.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/fr/univavignon/pokedex/api/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/fr/univavignon/pokedex/api/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/fr/univavignon/pokedex/api/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/help-doc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/index-all.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/legal/ADDITIONAL_LICENSE_INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/legal/ASSEMBLY_EXCEPTION" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/legal/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/legal/jquery.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/legal/jqueryUI.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/member-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/module-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/overview-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/package-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/resources/glass.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/resources/x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/script-dir/jquery-3.6.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/script-dir/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/script-dir/jquery-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/search-page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/search.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/serialized-form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/tag-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/type-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/checkstyle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/checkstyle.rss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/css/maven-base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/css/maven-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/css/print.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/css/site.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/dependencies.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/dependency-info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/images/close.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/images/collapsed.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/images/expanded.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/images/external.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/images/icon_error_sml.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/images/icon_info_sml.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/images/icon_success_sml.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/images/icon_warning_sml.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/images/logos/build-by-maven-black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/images/logos/build-by-maven-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/images/logos/maven-feather.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/images/newwindow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/images/rss.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/jacoco/fr.univavignon.pokedex.api/Pokedex.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/jacoco/fr.univavignon.pokedex.api/Pokedex.java.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/jacoco/fr.univavignon.pokedex.api/PokedexException.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/jacoco/fr.univavignon.pokedex.api/PokedexException.java.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/jacoco/fr.univavignon.pokedex.api/PokedexFactory.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/jacoco/fr.univavignon.pokedex.api/PokedexFactory.java.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/jacoco/fr.univavignon.pokedex.api/Pokemon.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/jacoco/fr.univavignon.pokedex.api/Pokemon.java.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/jacoco/fr.univavignon.pokedex.api/PokemonComparators.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/jacoco/fr.univavignon.pokedex.api/PokemonComparators.java.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/jacoco/fr.univavignon.pokedex.api/PokemonFactory.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/jacoco/fr.univavignon.pokedex.api/PokemonFactory.java.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/jacoco/fr.univavignon.pokedex.api/PokemonMetadata.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/jacoco/fr.univavignon.pokedex.api/PokemonMetadata.java.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/jacoco/fr.univavignon.pokedex.api/PokemonMetadataProvider.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/jacoco/fr.univavignon.pokedex.api/PokemonMetadataProvider.java.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/jacoco/fr.univavignon.pokedex.api/PokemonTrainer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/jacoco/fr.univavignon.pokedex.api/PokemonTrainer.java.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/jacoco/fr.univavignon.pokedex.api/PokemonTrainerFactory.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/jacoco/fr.univavignon.pokedex.api/PokemonTrainerFactory.java.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/jacoco/fr.univavignon.pokedex.api/Team.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/jacoco/fr.univavignon.pokedex.api/Team.java.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/jacoco/fr.univavignon.pokedex.api/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/jacoco/fr.univavignon.pokedex.api/index.source.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/jacoco/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchfc.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchnc.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchpc.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/bundle.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/class.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/down.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/greenbar.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/group.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/method.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/package.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/redbar.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/session.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/source.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/up.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/plugin-management.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/plugins.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/project-info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/project-reports.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/scm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/team.html" afterDir="false" />
+    <list default="true" id="9562a47b-99ba-4022-90bf-39726c8d4b14" name="Changes" comment="pokedextest">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/fr/univavignon/pokedex/api/IPokedexFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fr/univavignon/pokedex/api/IPokedexFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonMetadataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonMetadataProvider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/fr/univavignon/pokedex/api/IPokedexTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fr/univavignon/pokedex/api/IPokedexTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-fr.univavignon.pokedex.api.IPokedexFactoryTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-fr.univavignon.pokedex.api.IPokedexFactoryTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-fr.univavignon.pokedex.api.IPokedexTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-fr.univavignon.pokedex.api.IPokedexTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-fr.univavignon.pokedex.api.IPokemonFactoryTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-fr.univavignon.pokedex.api.IPokemonFactoryTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-fr.univavignon.pokedex.api.IPokemonMetadataProviderTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-fr.univavignon.pokedex.api.IPokemonMetadataProviderTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-fr.univavignon.pokedex.api.IPokemonTrainerFactoryTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-fr.univavignon.pokedex.api.IPokemonTrainerFactoryTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/fr.univavignon.pokedex.api.IPokedexFactoryTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/fr.univavignon.pokedex.api.IPokedexFactoryTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/fr.univavignon.pokedex.api.IPokedexTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/fr.univavignon.pokedex.api.IPokedexTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/fr.univavignon.pokedex.api.IPokemonFactoryTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/fr.univavignon.pokedex.api.IPokemonFactoryTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/fr.univavignon.pokedex.api.IPokemonMetadataProviderTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/fr.univavignon.pokedex.api.IPokemonMetadataProviderTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/fr.univavignon.pokedex.api.IPokemonTrainerFactoryTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/fr.univavignon.pokedex.api.IPokemonTrainerFactoryTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/fr/univavignon/pokedex/api/IPokedexFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/fr/univavignon/pokedex/api/IPokedexFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/fr/univavignon/pokedex/api/IPokedexTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/fr/univavignon/pokedex/api/IPokedexTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -292,7 +136,7 @@
       <workItem from="1680523722598" duration="4646000" />
       <workItem from="1680599746176" duration="319000" />
       <workItem from="1684070241008" duration="8039000" />
-      <workItem from="1684080148585" duration="8147000" />
+      <workItem from="1684080148585" duration="9658000" />
     </task>
     <task id="LOCAL-00001" summary="maven xml">
       <created>1677506864472</created>
@@ -553,7 +397,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684096773448</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="pokedextest">
+      <created>1684166271685</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1684166271685</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -594,6 +445,7 @@
     <MESSAGE value="pokedexfactorytest" />
     <MESSAGE value="Tests" />
     <MESSAGE value="Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test" />
+    <MESSAGE value="pokedextest" />
+    <option name="LAST_COMMIT_MESSAGE" value="pokedextest" />
   </component>
 </project>

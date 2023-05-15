@@ -8,7 +8,9 @@ public class PokemonMetadataProvider implements IPokemonMetadataProvider {
     private List<PokemonMetadata> pokemonMetadataList;
 
     public PokemonMetadataProvider() {
-        this.pokemonMetadataList = new ArrayList<>();
+        pokemonMetadataList = new ArrayList<>();
+        pokemonMetadataList.add(new PokemonMetadata(0, "pokemon1", 4, 4, 4));
+        pokemonMetadataList.add(new PokemonMetadata(1, "pokemon2", 384, 29, 500));
     }
 
 
