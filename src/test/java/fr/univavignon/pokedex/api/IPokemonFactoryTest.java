@@ -36,6 +36,7 @@ public class IPokemonFactoryTest {
         Assert.assertEquals(pokemon1.getHp(), pokemon3.getHp());
         Assert.assertEquals(pokemon1.getDust(), pokemon3.getDust());
         Assert.assertEquals(pokemon1.getCandy(), pokemon3.getCandy());
+        Assert.assertEquals(4.0, pokemon1.getIv(),4.0);
     }
 
     @Test
