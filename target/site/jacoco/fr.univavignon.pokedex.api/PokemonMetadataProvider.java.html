@@ -16,10 +16,12 @@ public class PokemonMetadataProvider implements IPokemonMetadataProvider {
 
     @Override
     public PokemonMetadata getPokemonMetadata(final int index) throws PokedexException {
-<span class="pc bpc" id="L19" title="1 of 4 branches missed.">        if (index &lt; 0 || index &gt;= pokemonMetadataList.size()) {</span>
-<span class="fc" id="L20">            throw new PokedexException(&quot;Le Pokémon n'est pas enregistré dans le pokédex&quot;);</span>
-        }
-<span class="fc" id="L22">        return pokemonMetadataList.get(index);</span>
+<span class="fc bfc" id="L19" title="All 2 branches covered.">        for (PokemonMetadata pokemonMetadata : pokemonMetadataList) {</span>
+<span class="fc bfc" id="L20" title="All 2 branches covered.">            if (pokemonMetadata.getIndex() == index) {</span>
+<span class="fc" id="L21">                return pokemonMetadata;</span>
+            }
+<span class="fc" id="L23">        }</span>
+<span class="fc" id="L24">        throw new PokedexException(&quot;Le Pokémon n'est pas enregistré dans le pokédex&quot;);</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>
