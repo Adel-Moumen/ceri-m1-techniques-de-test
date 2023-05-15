@@ -5,20 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9562a47b-99ba-4022-90bf-39726c8d4b14" name="Changes" comment="new tests">
-      <change beforePath="$PROJECT_DIR$/src/test/java/fr/univavignon/pokedex/api/IPokemonMetadataProviderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fr/univavignon/pokedex/api/IPokemonMetadataProviderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-fr.univavignon.pokedex.api.IPokedexFactoryTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-fr.univavignon.pokedex.api.IPokedexFactoryTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-fr.univavignon.pokedex.api.IPokedexTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-fr.univavignon.pokedex.api.IPokedexTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-fr.univavignon.pokedex.api.IPokemonFactoryTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-fr.univavignon.pokedex.api.IPokemonFactoryTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-fr.univavignon.pokedex.api.IPokemonMetadataProviderTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-fr.univavignon.pokedex.api.IPokemonMetadataProviderTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-fr.univavignon.pokedex.api.IPokemonTrainerFactoryTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-fr.univavignon.pokedex.api.IPokemonTrainerFactoryTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/fr.univavignon.pokedex.api.IPokedexFactoryTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/fr.univavignon.pokedex.api.IPokedexFactoryTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/fr.univavignon.pokedex.api.IPokedexTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/fr.univavignon.pokedex.api.IPokedexTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/fr.univavignon.pokedex.api.IPokemonFactoryTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/fr.univavignon.pokedex.api.IPokemonFactoryTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/fr.univavignon.pokedex.api.IPokemonTrainerFactoryTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/fr.univavignon.pokedex.api.IPokemonTrainerFactoryTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/fr/univavignon/pokedex/api/IPokemonMetadataProviderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/fr/univavignon/pokedex/api/IPokemonMetadataProviderTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fr/univavignon/pokedex/api/IPokemonTrainerFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fr/univavignon/pokedex/api/IPokemonTrainerFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/fr.univavignon.pokedex.api.IPokemonMetadataProviderTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/fr.univavignon.pokedex.api.IPokemonMetadataProviderTest.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +136,7 @@
       <workItem from="1680523722598" duration="4646000" />
       <workItem from="1680599746176" duration="319000" />
       <workItem from="1684070241008" duration="8039000" />
-      <workItem from="1684080148585" duration="11190000" />
+      <workItem from="1684080148585" duration="11887000" />
     </task>
     <task id="LOCAL-00001" summary="maven xml">
       <created>1677506864472</created>
@@ -450,7 +439,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684169129388</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="new tests">
+      <created>1684169263022</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1684169263022</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

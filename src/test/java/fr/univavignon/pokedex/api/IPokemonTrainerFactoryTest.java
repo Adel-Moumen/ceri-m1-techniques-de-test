@@ -1,32 +1,34 @@
 package fr.univavignon.pokedex.api;
 
 
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-
-import static org.mockito.ArgumentMatchers.any;
-import static org.mockito.ArgumentMatchers.anyString;
-import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.when;
+import org.mockito.Mockito;
 
 // Adel Moumen
 public class IPokemonTrainerFactoryTest {
 
 
-    private IPokemonTrainerFactory pokemonTrainerFactory = mock(IPokemonTrainerFactory.class);
-    private PokemonTrainer pokemonTrainer = mock(PokemonTrainer.class);
-    private IPokedexFactory pokedexFactory = mock(IPokedexFactory.class);
-    private String name = "abdelkader";
-
-    @Test
-    public void testCreateTrainer() {
-        assert (pokemonTrainerFactory.createTrainer("abdelkader", Team.VALOR, pokedexFactory) == pokemonTrainer);
-        System.out.println("Pokemon Trainer Factory Test Passed!");
-    }
+    private IPokemonTrainerFactory pokemonTrainerFactory;
+    private IPokedexFactory pokedexFactory;
+    private IPokedex pokedex;
 
     @Before
     public void initTestEnvironment() {
-        when(pokemonTrainerFactory.createTrainer(name, Team.VALOR, pokedexFactory)).thenReturn(pokemonTrainer);
+        pokemonTrainerFactory = new PokemonTrainerFactory();
+        pokedexFactory = Mockito.mock(IPokedexFactory.class);
+        pokedex = Mockito.mock(IPokedex.class);
+    }
+
+    @Test
+    public void testCreateTrainer() {
+        PokemonTrainer pokemonTrainer1 = pokemonTrainerFactory.createTrainer("pokemonTrainer1", Team.MYSTIC, pokedexFactory);
+        PokemonTrainer pokemonTrainer2 = pokemonTrainerFactory.createTrainer("pokemonTrainer2", Team.MYSTIC, pokedexFactory);
+        Assert.assertEquals(pokemonTrainer1.getName(), "pokemonTrainer1");
+        Assert.assertEquals(pokemonTrainer1.getTeam(), Team.MYSTIC);
+        Assert.assertEquals(pokemonTrainer2.getName(), "pokemonTrainer2");
+        Assert.assertEquals(pokemonTrainer2.getTeam(), Team.MYSTIC);
     }
 
 
