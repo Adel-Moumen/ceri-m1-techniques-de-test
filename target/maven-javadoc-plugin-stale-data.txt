@@ -1,0 +1,70 @@
+@options
+@packages
+-classpath
+'/Users/adel-moumen/.m2/repository/org/mockito/mockito-core/5.1.1/mockito-core-5.1.1.jar:/Users/adel-moumen/.m2/repository/net/bytebuddy/byte-buddy/1.12.22/byte-buddy-1.12.22.jar:/Users/adel-moumen/.m2/repository/net/bytebuddy/byte-buddy-agent/1.12.22/byte-buddy-agent-1.12.22.jar:/Users/adel-moumen/.m2/repository/com/puppycrawl/tools/checkstyle/10.1/checkstyle-10.1.jar:/Users/adel-moumen/.m2/repository/info/picocli/picocli/4.6.3/picocli-4.6.3.jar:/Users/adel-moumen/.m2/repository/org/antlr/antlr4-runtime/4.9.3/antlr4-runtime-4.9.3.jar:/Users/adel-moumen/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/Users/adel-moumen/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/adel-moumen/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/adel-moumen/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/adel-moumen/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/adel-moumen/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/adel-moumen/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/adel-moumen/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/adel-moumen/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/adel-moumen/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/adel-moumen/.m2/repository/org/reflections/reflections/0.10.2/reflections-0.10.2.jar:/Users/adel-moumen/.m2/repository/org/javassist/javassist/3.28.0-GA/javassist-3.28.0-GA.jar:/Users/adel-moumen/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar:/Users/adel-moumen/.m2/repository/net/sf/saxon/Saxon-HE/10.6/Saxon-HE-10.6.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'11'
+-sourcepath
+'/Users/adel-moumen/IdeaProjects/ceri-m1-techniques-de-test-final/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2023. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/Users/adel-moumen/IdeaProjects/ceri-m1-techniques-de-test-final/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'ceri-m1-techniques-de-test 0.0 API'
+-linkoffline
+'https://docs.oracle.com/en/java/javase/11/docs/api' '/Users/adel-moumen/IdeaProjects/ceri-m1-techniques-de-test-final/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'ceri-m1-techniques-de-test 0.0 API'
+fr.univavignon.pokedex.api
+/Users/adel-moumen/.m2/repository/org/mockito/mockito-core/5.1.1/mockito-core-5.1.1.jar = 1680597242638
+/Users/adel-moumen/.m2/repository/net/bytebuddy/byte-buddy/1.12.22/byte-buddy-1.12.22.jar = 1680597248048
+/Users/adel-moumen/.m2/repository/net/bytebuddy/byte-buddy-agent/1.12.22/byte-buddy-agent-1.12.22.jar = 1680597241654
+/Users/adel-moumen/.m2/repository/com/puppycrawl/tools/checkstyle/10.1/checkstyle-10.1.jar = 1684077363172
+/Users/adel-moumen/.m2/repository/info/picocli/picocli/4.6.3/picocli-4.6.3.jar = 1684077363024
+/Users/adel-moumen/.m2/repository/org/antlr/antlr4-runtime/4.9.3/antlr4-runtime-4.9.3.jar = 1684077363100
+/Users/adel-moumen/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar = 1681136827527
+/Users/adel-moumen/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar = 1681136827689
+/Users/adel-moumen/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar = 1681136827870
+/Users/adel-moumen/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar = 1684077363274
+/Users/adel-moumen/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar = 1684077362930
+/Users/adel-moumen/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar = 1684077362976
+/Users/adel-moumen/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar = 1678694099631
+/Users/adel-moumen/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar = 1684077363141
+/Users/adel-moumen/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar = 1684077363092
+/Users/adel-moumen/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar = 1684077363133
+/Users/adel-moumen/.m2/repository/org/reflections/reflections/0.10.2/reflections-0.10.2.jar = 1684077363191
+/Users/adel-moumen/.m2/repository/org/javassist/javassist/3.28.0-GA/javassist-3.28.0-GA.jar = 1684077363257
+/Users/adel-moumen/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar = 1684077363206
+/Users/adel-moumen/.m2/repository/net/sf/saxon/Saxon-HE/10.6/Saxon-HE-10.6.jar = 1684077363912
+/Users/adel-moumen/IdeaProjects/ceri-m1-techniques-de-test-final/src/main/java = 1684080360505
+/Users/adel-moumen/IdeaProjects/ceri-m1-techniques-de-test-final/target/site/apidocs/tag-search-index.js = 1684080762396
+/Users/adel-moumen/IdeaProjects/ceri-m1-techniques-de-test-final/target/site/apidocs/overview-tree.html = 1684080762382
+/Users/adel-moumen/IdeaProjects/ceri-m1-techniques-de-test-final/target/site/apidocs/module-search-index.js = 1684080762395
+/Users/adel-moumen/IdeaProjects/ceri-m1-techniques-de-test-final/target/site/apidocs/index.html = 1684080762409
+/Users/adel-moumen/IdeaProjects/ceri-m1-techniques-de-test-final/target/site/apidocs/package-search-index.js = 1684080762395
+/Users/adel-moumen/IdeaProjects/ceri-m1-techniques-de-test-final/target/site/apidocs/serialized-form.html = 1684080762360
+/Users/adel-moumen/IdeaProjects/ceri-m1-techniques-de-test-final/target/site/apidocs/index-all.html = 1684080762402
+/Users/adel-moumen/IdeaProjects/ceri-m1-techniques-de-test-final/target/site/apidocs/allpackages-index.html = 1684080762394
+/Users/adel-moumen/IdeaProjects/ceri-m1-techniques-de-test-final/target/site/apidocs/member-search-index.js = 1684080762396
+/Users/adel-moumen/IdeaProjects/ceri-m1-techniques-de-test-final/target/site/apidocs/copy.svg = 1684080762417
+/Users/adel-moumen/IdeaProjects/ceri-m1-techniques-de-test-final/target/site/apidocs/script.js = 1684080762416
+/Users/adel-moumen/IdeaProjects/ceri-m1-techniques-de-test-final/target/site/apidocs/stylesheet.css = 1684080762416
+/Users/adel-moumen/IdeaProjects/ceri-m1-techniques-de-test-final/target/site/apidocs/search-page.js = 1684080762418
+/Users/adel-moumen/IdeaProjects/ceri-m1-techniques-de-test-final/target/site/apidocs/help-doc.html = 1684080762415
+/Users/adel-moumen/IdeaProjects/ceri-m1-techniques-de-test-final/target/site/apidocs/javadoc.sh = 1684080713399
+/Users/adel-moumen/IdeaProjects/ceri-m1-techniques-de-test-final/target/site/apidocs/element-list = 1684080762345
+/Users/adel-moumen/IdeaProjects/ceri-m1-techniques-de-test-final/target/site/apidocs/search.html = 1684080762408
+/Users/adel-moumen/IdeaProjects/ceri-m1-techniques-de-test-final/target/site/apidocs/allclasses-index.html = 1684080762391
+/Users/adel-moumen/IdeaProjects/ceri-m1-techniques-de-test-final/target/site/apidocs/type-search-index.js = 1684080762395
+/Users/adel-moumen/IdeaProjects/ceri-m1-techniques-de-test-final/target/site/apidocs/search.js = 1684080762417
