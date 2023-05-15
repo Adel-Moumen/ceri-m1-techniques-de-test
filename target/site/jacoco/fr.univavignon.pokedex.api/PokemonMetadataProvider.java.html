@@ -16,8 +16,8 @@ public class PokemonMetadataProvider implements IPokemonMetadataProvider {
 
     @Override
     public PokemonMetadata getPokemonMetadata(final int index) throws PokedexException {
-<span class="pc bpc" id="L19" title="2 of 4 branches missed.">        if (index &lt; 0 || index &gt;= pokemonMetadataList.size()) {</span>
-<span class="nc" id="L20">            throw new PokedexException(&quot;Le Pokémon n'est pas enregistré dans le pokédex&quot;);</span>
+<span class="pc bpc" id="L19" title="1 of 4 branches missed.">        if (index &lt; 0 || index &gt;= pokemonMetadataList.size()) {</span>
+<span class="fc" id="L20">            throw new PokedexException(&quot;Le Pokémon n'est pas enregistré dans le pokédex&quot;);</span>
         }
 <span class="fc" id="L22">        return pokemonMetadataList.get(index);</span>
     }
