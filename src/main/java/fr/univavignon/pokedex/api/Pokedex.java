@@ -6,54 +6,69 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 
+/**
+ * The type Pokedex.
+ */
 public class Pokedex implements IPokedex {
 
+    /**
+     * The Pokemon metadata provider.
+     */
     private final IPokemonMetadataProvider pokemonMetadataProvider;
+    /**
+     * The Pokemons.
+     */
     private final List<Pokemon> pokemons;
+    /**
+     * The Pokemon factory.
+     */
     private final IPokemonFactory pokemonFactory;
 
-    public Pokedex(final IPokemonMetadataProvider metadataProvider, final IPokemonFactory factory) {
+    /**
+     * Instantiates a new Pokedex.
+     *
+     * @param metadataProvider the metadata provider
+     * @param factory          the factory
+     */
+    public Pokedex(final IPokemonMetadataProvider metadataProvider,
+                   final IPokemonFactory factory) {
         pokemons = new ArrayList<>();
         pokemonFactory = factory;
         pokemonMetadataProvider = metadataProvider;
     }
 
 
-
     @Override
-    public int size() {
+    public final int size() {
         return pokemons.size();
     }
 
 
-
     @Override
-    public int addPokemon(final Pokemon pokemon) {
+    public final int addPokemon(final Pokemon pokemon) {
         pokemons.add(pokemon);
         return pokemons.size();
     }
 
 
-
     @Override
-    public Pokemon getPokemon(final int id) throws PokedexException {
+    public final Pokemon getPokemon(final int id) throws PokedexException {
         if (id < 0 || id >= pokemons.size()) {
-            throw new PokedexException("Le Pokémon n'est pas enregistré dans le pokédex");
+            throw new PokedexException(
+                    "Le Pokémon n'est pas enregistré dans le pokédex");
         }
         return pokemons.get(id);
     }
 
 
-
     @Override
-    public List<Pokemon> getPokemons() {
+    public final List<Pokemon> getPokemons() {
         return Collections.unmodifiableList(pokemons);
     }
 
 
-
     @Override
-    public List<Pokemon> getPokemons(final Comparator<Pokemon> order) {
+    public final List<Pokemon> getPokemons(final Comparator<Pokemon> order) {
         List<Pokemon> pokemonList = pokemons;
         pokemons.sort(order);
         return Collections.unmodifiableList(pokemonList);
@@ -61,19 +76,33 @@ public class Pokedex implements IPokedex {
 
 
     @Override
-    public Pokemon createPokemon(final int index, final int cp, final int hp, final int dust, final int candy) throws PokedexException {
+    public final Pokemon createPokemon(final int index, final int cp,
+                                       final int hp,
+                                       final int dust, final int candy)
+            throws PokedexException {
         return pokemonFactory.createPokemon(index, cp, hp, dust, candy);
     }
 
     @Override
-    public PokemonMetadata getPokemonMetadata(final int index) throws PokedexException {
+    public final PokemonMetadata getPokemonMetadata(final int index)
+            throws PokedexException {
         return pokemonMetadataProvider.getPokemonMetadata(index);
     }
 
+    /**
+     * Gets pokemon factory.
+     *
+     * @return the pokemon factory
+     */
     public IPokemonFactory getPokemonFactory() {
         return pokemonFactory;
     }
 
+    /**
+     * Gets pokemon metadata provider.
+     *
+     * @return the pokemon metadata provider
+     */
     public IPokemonMetadataProvider getPokemonMetadataProvider() {
         return pokemonMetadataProvider;
     }

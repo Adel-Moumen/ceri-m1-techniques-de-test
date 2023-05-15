@@ -2,8 +2,11 @@
 
 <span class="fc" id="L3">public class PokemonTrainerFactory implements IPokemonTrainerFactory {</span>
     @Override
-    public PokemonTrainer createTrainer(final String name, final Team team, final IPokedexFactory pokedexFactory) {
-<span class="fc" id="L6">        return new PokemonTrainer(name, team, pokedexFactory.createPokedex(new PokemonMetadataProvider(), new PokemonFactory()));</span>
+    public PokemonTrainer createTrainer(final String name, final Team team,
+                                        final IPokedexFactory pokedexFactory) {
+<span class="fc" id="L7">        return new PokemonTrainer(name, team,</span>
+<span class="fc" id="L8">                pokedexFactory.createPokedex(new PokemonMetadataProvider(),</span>
+                        new PokemonFactory()));
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>

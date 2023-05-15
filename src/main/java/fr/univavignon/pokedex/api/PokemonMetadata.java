@@ -7,73 +7,95 @@ package fr.univavignon.pokedex.api;
  */
 public class PokemonMetadata {
 
-	/** Pokemon index. **/
-	private final int index;
+    /**
+     * Pokemon index.
+     **/
+    private final int index;
 
-	/** Pokemon name. **/
-	private final String name;
+    /**
+     * Pokemon name.
+     **/
+    private final String name;
 
-	/** Pokemon attack level. **/
-	private final int attack;
+    /**
+     * Pokemon attack level.
+     **/
+    private final int attack;
 
-	/** Pokemon defense level. **/
-	private final int defense;
+    /**
+     * Pokemon defense level.
+     **/
+    private final int defense;
 
-	/** Pokemon stamina level. **/
-	private final int stamina;
+    /**
+     * Pokemon stamina level.
+     **/
+    private final int stamina;
 
-	/**
-	 * Default constructor.
-	 *
-	 * @param index Pokemon index.
-	 * @param name Pokemon name.
-	 * @param attack Attack level.
-	 * @param defense Defense level.
-	 * @param stamina Stamina level.
-	 */
-	public PokemonMetadata(final int index,
-						   final String name,
-						   final int attack,
-						   final int defense,
-						   final int stamina) {
-		this.index = index;
-		this.name = name;
-		this.attack = attack;
-		this.defense = defense;
-		this.stamina = stamina;
-	}
-	/** Index getter.
-	 * @return index
-	 * **/
-	public int getIndex() {
-		return index;
-	}
-	/** Name getter.
-	 * @return name
-	 * **/
-	public String getName() {
-		return name;
-	}
+    /**
+     * Default constructor.
+     *
+     * @param index1   Pokemon index.
+     * @param name1    Pokemon name.
+     * @param attack1  Attack level.
+     * @param defense1 Defense level.
+     * @param stamina1 Stamina level.
+     */
+    public PokemonMetadata(final int index1,
+                           final String name1,
+                           final int attack1,
+                           final int defense1,
+                           final int stamina1) {
+        this.index = index1;
+        this.name = name1;
+        this.attack = attack1;
+        this.defense = defense1;
+        this.stamina = stamina1;
+    }
 
-	/** Attack level getter.
-	 * @return attack
-	 * **/
-	public int getAttack() {
-		return attack;
-	}
+    /**
+     * Index getter.
+     *
+     * @return index
+     **/
+    public int getIndex() {
+        return index;
+    }
 
-	/** Defense level getter.
-	 * @return defense
-	 * **/
-	public int getDefense() {
-		return defense;
-	}
+    /**
+     * Name getter.
+     *
+     * @return name
+     **/
+    public String getName() {
+        return name;
+    }
 
-	/** Stamina level getter.
-	 * @return stamina
-	 * **/
-	public int getStamina() {
-		return stamina;
-	}
+    /**
+     * Attack level getter.
+     *
+     * @return attack
+     **/
+    public int getAttack() {
+        return attack;
+    }
+
+    /**
+     * Defense level getter.
+     *
+     * @return defense
+     **/
+    public int getDefense() {
+        return defense;
+    }
+
+    /**
+     * Stamina level getter.
+     *
+     * @return stamina
+     **/
+    public int getStamina() {
+        return stamina;
+    }
 
 }

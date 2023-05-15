@@ -5,23 +5,26 @@ import java.util.List;
 
 public class PokemonMetadataProvider implements IPokemonMetadataProvider {
 
-    private List&lt;PokemonMetadata&gt; pokemonMetadataList;
+    private final List&lt;PokemonMetadata&gt; pokemonMetadataList;
 
 <span class="fc" id="L10">    public PokemonMetadataProvider() {</span>
 <span class="fc" id="L11">        pokemonMetadataList = new ArrayList&lt;&gt;();</span>
 <span class="fc" id="L12">        pokemonMetadataList.add(new PokemonMetadata(0, &quot;pokemon1&quot;, 4, 4, 4));</span>
-<span class="fc" id="L13">        pokemonMetadataList.add(new PokemonMetadata(1, &quot;pokemon2&quot;, 384, 29, 500));</span>
-<span class="fc" id="L14">    }</span>
+<span class="fc" id="L13">        pokemonMetadataList.add(</span>
+                new PokemonMetadata(1, &quot;pokemon2&quot;, 384, 29, 500));
+<span class="fc" id="L15">    }</span>
 
 
     @Override
-    public PokemonMetadata getPokemonMetadata(final int index) throws PokedexException {
-<span class="fc bfc" id="L19" title="All 2 branches covered.">        for (PokemonMetadata pokemonMetadata : pokemonMetadataList) {</span>
-<span class="fc bfc" id="L20" title="All 2 branches covered.">            if (pokemonMetadata.getIndex() == index) {</span>
-<span class="fc" id="L21">                return pokemonMetadata;</span>
+    public PokemonMetadata getPokemonMetadata(final int index)
+            throws PokedexException {
+<span class="fc bfc" id="L21" title="All 2 branches covered.">        for (PokemonMetadata pokemonMetadata : pokemonMetadataList) {</span>
+<span class="fc bfc" id="L22" title="All 2 branches covered.">            if (pokemonMetadata.getIndex() == index) {</span>
+<span class="fc" id="L23">                return pokemonMetadata;</span>
             }
-<span class="fc" id="L23">        }</span>
-<span class="fc" id="L24">        throw new PokedexException(&quot;Le Pokémon n'est pas enregistré dans le pokédex&quot;);</span>
+<span class="fc" id="L25">        }</span>
+<span class="fc" id="L26">        throw new PokedexException(</span>
+                &quot;Le Pokémon n'est pas enregistré dans le pokédex&quot;);
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>

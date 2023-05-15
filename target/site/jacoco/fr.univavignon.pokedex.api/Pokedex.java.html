@@ -6,76 +6,104 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 
+/**
+ * The type Pokedex.
+ */
 public class Pokedex implements IPokedex {
 
+    /**
+     * The Pokemon metadata provider.
+     */
     private final IPokemonMetadataProvider pokemonMetadataProvider;
+    /**
+     * The Pokemons.
+     */
     private final List&lt;Pokemon&gt; pokemons;
+    /**
+     * The Pokemon factory.
+     */
     private final IPokemonFactory pokemonFactory;
 
-<span class="fc" id="L15">    public Pokedex(final IPokemonMetadataProvider metadataProvider, final IPokemonFactory factory) {</span>
-<span class="fc" id="L16">        pokemons = new ArrayList&lt;&gt;();</span>
-<span class="fc" id="L17">        pokemonFactory = factory;</span>
-<span class="fc" id="L18">        pokemonMetadataProvider = metadataProvider;</span>
-<span class="fc" id="L19">    }</span>
-
+    /**
+     * Instantiates a new Pokedex.
+     *
+     * @param metadataProvider the metadata provider
+     * @param factory          the factory
+     */
+    public Pokedex(final IPokemonMetadataProvider metadataProvider,
+<span class="fc" id="L34">                   final IPokemonFactory factory) {</span>
+<span class="fc" id="L35">        pokemons = new ArrayList&lt;&gt;();</span>
+<span class="fc" id="L36">        pokemonFactory = factory;</span>
+<span class="fc" id="L37">        pokemonMetadataProvider = metadataProvider;</span>
+<span class="fc" id="L38">    }</span>
 
 
     @Override
-    public int size() {
-<span class="fc" id="L25">        return pokemons.size();</span>
+    public final int size() {
+<span class="fc" id="L43">        return pokemons.size();</span>
     }
 
 
-
     @Override
-    public int addPokemon(final Pokemon pokemon) {
-<span class="fc" id="L32">        pokemons.add(pokemon);</span>
-<span class="fc" id="L33">        return pokemons.size();</span>
+    public final int addPokemon(final Pokemon pokemon) {
+<span class="fc" id="L49">        pokemons.add(pokemon);</span>
+<span class="fc" id="L50">        return pokemons.size();</span>
     }
 
 
-
     @Override
-    public Pokemon getPokemon(final int id) throws PokedexException {
-<span class="fc bfc" id="L40" title="All 4 branches covered.">        if (id &lt; 0 || id &gt;= pokemons.size()) {</span>
-<span class="fc" id="L41">            throw new PokedexException(&quot;Le Pokémon n'est pas enregistré dans le pokédex&quot;);</span>
+    public final Pokemon getPokemon(final int id) throws PokedexException {
+<span class="fc bfc" id="L56" title="All 4 branches covered.">        if (id &lt; 0 || id &gt;= pokemons.size()) {</span>
+<span class="fc" id="L57">            throw new PokedexException(</span>
+                    &quot;Le Pokémon n'est pas enregistré dans le pokédex&quot;);
         }
-<span class="fc" id="L43">        return pokemons.get(id);</span>
-    }
-
-
-
-    @Override
-    public List&lt;Pokemon&gt; getPokemons() {
-<span class="fc" id="L50">        return Collections.unmodifiableList(pokemons);</span>
-    }
-
-
-
-    @Override
-    public List&lt;Pokemon&gt; getPokemons(final Comparator&lt;Pokemon&gt; order) {
-<span class="fc" id="L57">        List&lt;Pokemon&gt; pokemonList = pokemons;</span>
-<span class="fc" id="L58">        pokemons.sort(order);</span>
-<span class="fc" id="L59">        return Collections.unmodifiableList(pokemonList);</span>
+<span class="fc" id="L60">        return pokemons.get(id);</span>
     }
 
 
     @Override
-    public Pokemon createPokemon(final int index, final int cp, final int hp, final int dust, final int candy) throws PokedexException {
-<span class="fc" id="L65">        return pokemonFactory.createPokemon(index, cp, hp, dust, candy);</span>
+    public final List&lt;Pokemon&gt; getPokemons() {
+<span class="fc" id="L66">        return Collections.unmodifiableList(pokemons);</span>
+    }
+
+
+    @Override
+    public final List&lt;Pokemon&gt; getPokemons(final Comparator&lt;Pokemon&gt; order) {
+<span class="fc" id="L72">        List&lt;Pokemon&gt; pokemonList = pokemons;</span>
+<span class="fc" id="L73">        pokemons.sort(order);</span>
+<span class="fc" id="L74">        return Collections.unmodifiableList(pokemonList);</span>
+    }
+
+
+    @Override
+    public final Pokemon createPokemon(final int index, final int cp, final int hp,
+                                 final int dust, final int candy)
+            throws PokedexException {
+<span class="fc" id="L82">        return pokemonFactory.createPokemon(index, cp, hp, dust, candy);</span>
     }
 
     @Override
-    public PokemonMetadata getPokemonMetadata(final int index) throws PokedexException {
-<span class="fc" id="L70">        return pokemonMetadataProvider.getPokemonMetadata(index);</span>
+    public PokemonMetadata getPokemonMetadata(final int index)
+            throws PokedexException {
+<span class="fc" id="L88">        return pokemonMetadataProvider.getPokemonMetadata(index);</span>
     }
 
+    /**
+     * Gets pokemon factory.
+     *
+     * @return the pokemon factory
+     */
     public IPokemonFactory getPokemonFactory() {
-<span class="fc" id="L74">        return pokemonFactory;</span>
+<span class="fc" id="L97">        return pokemonFactory;</span>
     }
 
+    /**
+     * Gets pokemon metadata provider.
+     *
+     * @return the pokemon metadata provider
+     */
     public IPokemonMetadataProvider getPokemonMetadataProvider() {
-<span class="fc" id="L78">        return pokemonMetadataProvider;</span>
+<span class="fc" id="L106">        return pokemonMetadataProvider;</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>
