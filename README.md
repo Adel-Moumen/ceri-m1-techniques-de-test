@@ -11,3 +11,7 @@
 ## Documentation (TP5)
 
 [Accès à la JavaDoc](https://adel-moumen.github.io/ceri-m1-techniques-de-test/fr/univavignon/pokedex/api/package-summary.html)
+
+## Rapport (TP6)
+
+Disponible dans tp6_rapport.pdf
